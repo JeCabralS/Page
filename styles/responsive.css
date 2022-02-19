@@ -1,0 +1,30 @@
+@media screen and (max-width: 800px){
+  header{
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  main{
+    flex-direction: column;
+  }
+  h2{
+    font-size: 30px;
+    text-align: center;
+  }
+  form{
+    margin: 0 auto;
+    width: 100%;
+  }
+  input{
+    align-self: center;
+  }
+  img{
+   display: none;
+   }
+   .conteudo-bg p{
+   margin-left: auto;
+   margin-right: auto;
+   }
+}
+
+

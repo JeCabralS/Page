@@ -26,6 +26,19 @@ Header{
 
   a:hover{
     color: rgb(132, 14, 201);
+    transition: 0.5s all;
+  }
+
+  #login{
+    border: 2px solid rgb(132, 14, 201);
+    border-radius: 15px;
+    padding: 10px 20px;
+  }
+
+  #login:hover{
+    background-color: rgb(132, 14, 201);
+    color: #ffffff;
+    transition: 0.6s all;
   }
 
   li{
@@ -65,6 +78,33 @@ Header{
     width: 580px;
   }
 
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+  .btn{
+    height: 40px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    align-self: center;
+  }
+
+  .btn:hover{
+    cursor: pointer;
+  }
+
+  input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+  }
 
 
 
